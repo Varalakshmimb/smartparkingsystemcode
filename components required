@@ -1,0 +1,14 @@
+This smart parking system project consists of Arduino, six IR sensors, one servo motor, and one LCD display.
+Where the Arduino is the main microcontroller that controls the whole system. Two IR sensors are used at the entry and exit gates to detect vehicle entry and exit in the parking area. 
+And other four IR sensors are used to detect the parking slot availability. The servo motor is placed at the entry and exit gate that is used to open and close the gates. 
+Also, an LCD display is placed at the entrance, which is used to show the availability of parking slots in the parking area.
+When a vehicle arrives at the gate of the parking area, the display continuously shows the number of empty slots. 
+If there have any empty slots then the system opens the entry gate by the servo motor. After entering the car into the parking area, when it will occupy a slot, then the display shows this slot is full.
+ If there is no empty parking slot then the system displays all slots are full and does not open the gate.
+Arduino Nano or Arduino Uno	1
+USB Cable for Arduino 	1
+IR Sensor	6
+Sg90 Servo Motor	1
+9V power supply	1
+PCB board or Breadboard	1
+Connecting wires . 
